@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h2>Welcome to TravelBea</h2>
+    
+    <img src="{% static 'images/home.jpg' %}" alt="Home Image" width="400">
+    
+    <a href="{% url 'login' %}">
+        <button>Login</button>
+    </a>
+</body>
+</html>

@@ -6,7 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
+<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MH_Bus.settings')
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'travelbea.settings')
+>>>>>>> 9cc8718 (Adding travelbea project)
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
